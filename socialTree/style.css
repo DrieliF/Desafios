@@ -16,13 +16,15 @@
   flex-direction:column;
 }
 
- .perfil img{
+  .perfil img{
   width:200px;
   border-radius:8rem;
   margin-bottom: 20px;
   border-color: #BB99DD;
   border-style: groove;
-
+}
+.perfil img:hover{
+  width: 230px;
 }
 .links{
   display:flex;
@@ -46,6 +48,9 @@ a{
   color: #BB99DD;
   font-weight: 600;
 }
+a:hover{
+  color: #bd2fca;
+}
 .icones{
   display:flex;
   flex-direction:row;
@@ -57,5 +62,9 @@ a{
   width: 30px;
 }
 .icones img:hover{
-  width: 33px;
+  width: 42px;
+}
+.atribuicao{
+  color: #BB99DD;
+  padding-top: 100px;
 }
