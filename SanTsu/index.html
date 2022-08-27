@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SanTsu</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="topo">
+      <!--AQUI É A SEÇÃO DO MENU-->
+
+      <div class="conteudo flex">
+        <div class="logo_img">
+          <a href="#"><img src="image/logo.png" alt="logo SanTsu" /></a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#cartoes">Cartões</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--FIM MENU-->
+    <section class="prim_secao">
+      <!-- SEÇÃO 1-->
+      <div class="conteudo">
+            <div class="caixas">
+                    <div class="textos">
+                        <h2>Lorem ipsum dolor <br> sit amet</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+                            Quibusdam tempora architecto laboriosam harum mollitia, <br />
+                            commodi cupiditate dolores impedit nihil fugit ipsum inventore hic,
+                            error facere
+                        </p>
+                        <button><a href="#contato">Contato</a> </button>
+                    </div>
+                    
+                    <div class="pri_img">
+                    <img
+                        src="image/segundaimagem.png"
+                        alt="ilustração de personagens em cima de caixas"/>
+                    </div>
+            </div>
+        </div>
+    </div>
+      
+    </section>
+    <!--fim secao1-->
+    <!--------------------------CONTAINER CARDS---------------------------------->
+    <main id="cartoes" class="principal">
+      <div class="cartoes conteudo">
+        <div class="cards">
+        <h2>Cartões</h2>
+        </div>
+      
+
+      <div class="container_cards">
+        <div class="card_row">
+          <div class="card">
+            <div style="background-color: #ff6363;"class="retangulo_cor">
+            </div>
+            <div class="conteudo_artigo">
+              <h4>Título do Card</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga id minima delectus, beatae eaque repudiandae, dignissimos iste earum reprehenderit</p>
+  
+            </div>
+          </div>
+  
+          <div class="card">
+            <div style="background-color: aqua;" class="retangulo_cor"></div>
+            <div class="conteudo_artigo">
+              <h4>Título do Card</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga id minima delectus, beatae eaque repudiandae, dignissimos iste earum reprehenderit</p>
+  
+            </div>
+          </div>
+          <div class="card">
+            <div style="background-color: rgb(238, 77, 238);"class="retangulo_cor"></div>
+            <div class="conteudo_artigo">
+              <h4>Título do Card</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga id minima delectus, beatae eaque repudiandae, dignissimos iste earum reprehenderit</p>
+  
+            </div>
+          </div>
+        </div>
+        <div class="card_row">
+          <div class="card">
+            <div style="background-color: rgb(87, 241, 113);"class="retangulo_cor"></div>
+            <div class="conteudo_artigo">
+              <h4>Título do Card</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga id minima delectus, beatae eaque repudiandae, dignissimos iste earum reprehenderit</p>
+  
+            </div>
+          </div>
+          <div class="card">
+            <div style="background-color: gold;"class="retangulo_cor"></div>
+            <div class="conteudo_artigo">
+              <h4>Título do Card</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga id minima delectus, beatae eaque repudiandae, dignissimos iste earum reprehenderit</p>
+  
+            </div>
+          </div>
+          <div class="card">
+            <div style="background-color: rgb(118, 55, 219);" class="retangulo_cor"></div>
+            <div class="conteudo_artigo">
+              <h4>Título do Card</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga id minima delectus, beatae eaque repudiandae, dignissimos iste earum reprehenderit</p>
+  
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> 
+    </main>
+    <!--fim main-->
+
+    
+    <!-------------------FIM CONTAINER CARDS--------------------->
+
+    <!-------------------------FORMULARIO------------------------------------>
+
+    <!-- <button onclick="abrirModal()" id="btn_contato">entre em contato</button> -->
+    <section class="seg_secao">
+    <div id="contato"class="modal conteudo">
+      
+        <div class="content_modal">
+          <div class="titulo_form">
+          <p>Entre em contato </p>
+         </div>
+          <div class="formulario_contato">
+            <form>
+
+              <label for="input_nome"></label>
+              <input class="input" id="input_nome" type="text" placeholder="Nome"/> <br/>
+              <label for="input_email"></label>
+              <input class="input" id="input_email" type="text" placeholder="E-mail"/> <br/>
+              <label for="input_tel"></label>
+              <input class="input" id="input_tel" type="text" placeholder="Telefone"/> <br/>
+              <label for="input_mensagem"></label>
+              <textarea class="input" id="input_mensagem" rows="1" maxlength="280" placeholder="Mensagem"></textarea> <br/>
+
+              <button onclick="enviarMensagem()" type="button" id="btn_mensagem">Enviar Mensagem</button>
+            </form>
+        </div>
+        
+      </div>
+    
+    </div>
+  </section>
+
+    <script src="./js/script.js"></script>
+    <footer class="conteudo rodape">
+      <p>&copy; Essa página foi inspirada no Desafio 3 do @iuricode para fins educacionais.</p>
+    </footer>
+  </body>
+</html>
